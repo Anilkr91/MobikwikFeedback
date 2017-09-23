@@ -25,7 +25,6 @@ class TestTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        print(person.count)
         return person.count
     }
     

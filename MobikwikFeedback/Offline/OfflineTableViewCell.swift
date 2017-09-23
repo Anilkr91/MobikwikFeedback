@@ -25,7 +25,7 @@ class OfflineTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
   
-    var info: Feedback? {
+    var info: Offline? {
         didSet {
             if let info = info {
                 didSetCategory(info: info)
@@ -35,10 +35,10 @@ class OfflineTableViewCell: UITableViewCell {
 }
 
 extension OfflineTableViewCell {
-    func didSetCategory(info: Feedback) {
+    func didSetCategory(info: Offline) {
         
-        idLabel.text = info.id
-        qrCodeLabel.text = info.qrCode
-        transactionIdLabel.text = info.transactionId
+        idLabel.text = info.name
+        qrCodeLabel.text = info.qrcode
+        transactionIdLabel.text = info.name
     }
 }

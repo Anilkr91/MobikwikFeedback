@@ -27,7 +27,6 @@
 		84824A4E1F744249006F8C8C /* Form2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A411F744249006F8C8C /* Form2ViewController.swift */; };
 		84824A4F1F744249006F8C8C /* Form3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A431F744249006F8C8C /* Form3TableViewController.swift */; };
 		84824A501F744249006F8C8C /* Form3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A441F744249006F8C8C /* Form3ViewController.swift */; };
-		84824A511F744249006F8C8C /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A461F744249006F8C8C /* FeedbackModel.swift */; };
 		84824A521F744249006F8C8C /* OfflineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A471F744249006F8C8C /* OfflineTableViewCell.swift */; };
 		84824A531F744249006F8C8C /* OfflineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A481F744249006F8C8C /* OfflineTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -55,7 +54,6 @@
 		84824A411F744249006F8C8C /* Form2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form2ViewController.swift; sourceTree = "<group>"; };
 		84824A431F744249006F8C8C /* Form3TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form3TableViewController.swift; sourceTree = "<group>"; };
 		84824A441F744249006F8C8C /* Form3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form3ViewController.swift; sourceTree = "<group>"; };
-		84824A461F744249006F8C8C /* FeedbackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
 		84824A471F744249006F8C8C /* OfflineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineTableViewCell.swift; sourceTree = "<group>"; };
 		84824A481F744249006F8C8C /* OfflineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,7 +149,6 @@
 		84824A451F744249006F8C8C /* Offline */ = {
 			isa = PBXGroup;
 			children = (
-				84824A461F744249006F8C8C /* FeedbackModel.swift */,
 				84824A471F744249006F8C8C /* OfflineTableViewCell.swift */,
 				84824A481F744249006F8C8C /* OfflineTableViewController.swift */,
 			);
@@ -230,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84824A511F744249006F8C8C /* FeedbackModel.swift in Sources */,
 				847220A51F76CA54009F8CE4 /* TestViewController.swift in Sources */,
 				847220B41F76CB65009F8CE4 /* Form1TableViewController.swift in Sources */,
 				84824A4E1F744249006F8C8C /* Form2ViewController.swift in Sources */,
