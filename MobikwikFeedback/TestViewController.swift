@@ -16,7 +16,6 @@ class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -24,18 +23,17 @@ class TestViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-        
     
     @IBAction func saveData(_sender: Any) {
         let name = nameTextField.text!
         let code = codeTextField.text!
-        
         
         if name.isEmpty  {
             print("empty please fill")
         } else if code.isEmpty {
             print("empty please fill")
         } else {
+            
             let context = CoreDataUtils.getContext()
             let offline = Offline(context: context)
             
