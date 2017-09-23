@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8472209D1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8472209B1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodeld */; };
-		847220A21F76CA54009F8CE4 /* Offline+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472209E1F76CA54009F8CE4 /* Offline+CoreDataClass.swift */; };
-		847220A31F76CA54009F8CE4 /* Offline+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472209F1F76CA54009F8CE4 /* Offline+CoreDataProperties.swift */; };
 		847220A41F76CA54009F8CE4 /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220A01F76CA54009F8CE4 /* TestTableViewController.swift */; };
 		847220A51F76CA54009F8CE4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220A11F76CA54009F8CE4 /* TestViewController.swift */; };
-		847220AE1F76CB44009F8CE4 /* CoreData+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220AB1F76CB44009F8CE4 /* CoreData+Helper.swift */; };
 		847220B41F76CB65009F8CE4 /* Form1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220B21F76CB65009F8CE4 /* Form1TableViewController.swift */; };
 		847220B51F76CB65009F8CE4 /* Form1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220B31F76CB65009F8CE4 /* Form1ViewController.swift */; };
+		847220C71F76D99D009F8CE4 /* CoreData+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220C21F76D99D009F8CE4 /* CoreData+Helper.swift */; };
+		847220C81F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 847220C31F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodeld */; };
+		847220C91F76D99D009F8CE4 /* Offline+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220C51F76D99D009F8CE4 /* Offline+CoreDataClass.swift */; };
+		847220CA1F76D99D009F8CE4 /* Offline+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847220C61F76D99D009F8CE4 /* Offline+CoreDataProperties.swift */; };
 		84824A111F73F4B6006F8C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84824A101F73F4B6006F8C8C /* AppDelegate.swift */; };
 		84824A161F73F4B6006F8C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84824A141F73F4B6006F8C8C /* Main.storyboard */; };
 		84824A181F73F4B6006F8C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84824A171F73F4B6006F8C8C /* Assets.xcassets */; };
@@ -31,14 +31,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8472209C1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobikwikFeedback.xcdatamodel; sourceTree = "<group>"; };
-		8472209E1F76CA54009F8CE4 /* Offline+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Offline+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8472209F1F76CA54009F8CE4 /* Offline+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Offline+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		847220A01F76CA54009F8CE4 /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		847220A11F76CA54009F8CE4 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		847220AB1F76CB44009F8CE4 /* CoreData+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreData+Helper.swift"; sourceTree = "<group>"; };
 		847220B21F76CB65009F8CE4 /* Form1TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form1TableViewController.swift; sourceTree = "<group>"; };
 		847220B31F76CB65009F8CE4 /* Form1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Form1ViewController.swift; sourceTree = "<group>"; };
+		847220C21F76D99D009F8CE4 /* CoreData+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreData+Helper.swift"; sourceTree = "<group>"; };
+		847220C41F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobikwikFeedback.xcdatamodel; sourceTree = "<group>"; };
+		847220C51F76D99D009F8CE4 /* Offline+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Offline+CoreDataClass.swift"; sourceTree = "<group>"; };
+		847220C61F76D99D009F8CE4 /* Offline+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Offline+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		84824A0D1F73F4B6006F8C8C /* MobikwikFeedback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobikwikFeedback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84824A101F73F4B6006F8C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84824A151F73F4B6006F8C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,15 +76,15 @@
 			path = Form1;
 			sourceTree = "<group>";
 		};
-		847220B61F76CBA9009F8CE4 /* CoreData */ = {
+		847220C11F76D99D009F8CE4 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8472209B1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodeld */,
-				847220AB1F76CB44009F8CE4 /* CoreData+Helper.swift */,
-				8472209E1F76CA54009F8CE4 /* Offline+CoreDataClass.swift */,
-				8472209F1F76CA54009F8CE4 /* Offline+CoreDataProperties.swift */,
+				847220C21F76D99D009F8CE4 /* CoreData+Helper.swift */,
+				847220C31F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodeld */,
+				847220C51F76D99D009F8CE4 /* Offline+CoreDataClass.swift */,
+				847220C61F76D99D009F8CE4 /* Offline+CoreDataProperties.swift */,
 			);
-			name = CoreData;
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		84824A041F73F4B6006F8C8C = {
@@ -108,7 +108,7 @@
 			children = (
 				847220A01F76CA54009F8CE4 /* TestTableViewController.swift */,
 				847220A11F76CA54009F8CE4 /* TestViewController.swift */,
-				847220B61F76CBA9009F8CE4 /* CoreData */,
+				847220C11F76D99D009F8CE4 /* CoreData */,
 				847220B11F76CB65009F8CE4 /* Form1 */,
 				84824A3D1F744249006F8C8C /* Form2 */,
 				84824A421F744249006F8C8C /* Form3 */,
@@ -227,19 +227,19 @@
 				847220A51F76CA54009F8CE4 /* TestViewController.swift in Sources */,
 				847220B41F76CB65009F8CE4 /* Form1TableViewController.swift in Sources */,
 				84824A4E1F744249006F8C8C /* Form2ViewController.swift in Sources */,
+				847220C91F76D99D009F8CE4 /* Offline+CoreDataClass.swift in Sources */,
 				847220B51F76CB65009F8CE4 /* Form1ViewController.swift in Sources */,
+				847220C71F76D99D009F8CE4 /* CoreData+Helper.swift in Sources */,
 				84824A4C1F744249006F8C8C /* Form2TableViewCell.swift in Sources */,
 				84824A4B1F744249006F8C8C /* Form2Model.swift in Sources */,
+				847220CA1F76D99D009F8CE4 /* Offline+CoreDataProperties.swift in Sources */,
+				847220C81F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodeld in Sources */,
 				847220A41F76CA54009F8CE4 /* TestTableViewController.swift in Sources */,
 				84824A111F73F4B6006F8C8C /* AppDelegate.swift in Sources */,
-				8472209D1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodeld in Sources */,
 				84824A531F744249006F8C8C /* OfflineTableViewController.swift in Sources */,
 				84824A521F744249006F8C8C /* OfflineTableViewCell.swift in Sources */,
 				84824A4D1F744249006F8C8C /* Form2TableViewController.swift in Sources */,
-				847220AE1F76CB44009F8CE4 /* CoreData+Helper.swift in Sources */,
 				84824A2D1F742B57006F8C8C /* BaseViewController.swift in Sources */,
-				847220A31F76CA54009F8CE4 /* Offline+CoreDataProperties.swift in Sources */,
-				847220A21F76CA54009F8CE4 /* Offline+CoreDataClass.swift in Sources */,
 				84824A501F744249006F8C8C /* Form3ViewController.swift in Sources */,
 				84824A4F1F744249006F8C8C /* Form3TableViewController.swift in Sources */,
 			);
@@ -410,12 +410,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8472209B1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodeld */ = {
+		847220C31F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				8472209C1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodel */,
+				847220C41F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodel */,
 			);
-			currentVersion = 8472209C1F76C9FC009F8CE4 /* MobikwikFeedback.xcdatamodel */;
+			currentVersion = 847220C41F76D99D009F8CE4 /* MobikwikFeedback.xcdatamodel */;
 			path = MobikwikFeedback.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
